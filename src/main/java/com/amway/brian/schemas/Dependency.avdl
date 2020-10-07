@@ -1,0 +1,10 @@
+@namespace("com.amway.brian.schemas")
+protocol Dependency {
+  import idl "Simple.avdl";
+
+  record Dependency {
+    string name;
+
+    TestRecord rec;
+  }
+}
